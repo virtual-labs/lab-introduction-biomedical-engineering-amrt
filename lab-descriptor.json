@@ -1,141 +1,119 @@
 {
   "broadArea": {
-    "name": "Computer Science and Engineering",
-    "link": "http://vlab.co.in/broad-area-computer-science-and-engineering",
-    "code": "CSE"
+    "name": "Biotechnology and Biomedical Engineering",
+    "link": "https://www.vlab.co.in/broad-area-biotechnology-and-biomedical-engineering",
+    "code": "BIO"
   },
-  "lab": "Data Structures – 1",
-  "lab_display_name": "Data Structures – 1",
-  "phase": 3,
-  "collegeName": "IIITH",
-  "baseUrl": "ds1-iiith.vlabs.ac.in",
-  "introduction": "Welcome to the Data Structures Lab - I developed at IIIT Hyderabad. Data Structures (also called Data Structures and Algorithms in some places) is a core course in all computer science undergraduate curricula. The course is the basis for understanding several data structures and also algorithms that operate on them. The course forms the foundation for almost all computer science subjects: compilers, operating systems, databases, AI and software engineering. The course comes with a lab in most universities in India. The associated lab in university curricula focuses on implementation of algorithms operating on the data structures, i.e., coding programs on the data structures and algorithms. Students embarking on the task of writing programs, however, often have difficulty visualizing how operations and algorithms modify a data structure. As a result students are often unable to understand or show the execution of an algorithm on a given data structure and write code effectively. Furthermore, students are unable to visually reason about the time and space complexities associated with an algorithm running on a data structure. The interactive experiments in this lab will give the students an opportunity for learning and better understanding of using algorithms.",
-  "experiment-sections": [
-    {
-      "sect-name": "Sorting",
-      "experiments": [
-        {
-          "name": "Bubble Sort",
-          "short-name": "bubble-sort",
-          "repo": "https://github.com/virtual-labs/exp-bubble-sort-iiith.git",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Merge Sort",
-          "short-name": "merge-sort",
-          "repo": "https://github.com/virtual-labs/exp-merge-sort-iiith.git",
-          "tag": "v1.0.8",
-          "deploy": true
-        },
-        {
-          "name": "Heap Sort",
-          "short-name": "heap-sort",
-          "repo": "https://github.com/virtual-labs/exp-heap-sort-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Quick Sort",
-          "short-name": "quick-sort",
-          "repo": "https://github.com/virtual-labs/exp-quick-sort-iiith",
-          "tag": "v1.0.8",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Graphs",
-      "experiments": [
-        {
-          "name": "Depth First Search",
-          "short-name": "depth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-dfs-iiith",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Breadth First Search",
-          "short-name": "breadth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-bfs-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Trees",
-      "experiments": [
-        {
-          "name": "Tree Traversal",
-          "short-name": "tree-traversal",
-          "repo": "https://github.com/virtual-labs/exp-tree-traversal-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Binary Search Trees",
-          "short-name": "binary-search-trees",
-          "repo": "https://github.com/virtual-labs/exp-bst-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Searching",
-      "experiments": [
-        {
-          "name": "Unsorted Arrays",
-          "short-name": "unsorted-arrays",
-          "repo": "https://github.com/virtual-labs/exp-unsorted-arrays-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Hashtables",
-          "short-name": "hash-tables",
-          "repo": "https://github.com/virtual-labs/exp-hashtables-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Linked Lists",
-      "experiments": [
-        {
-          "name": "Linked lists",
-          "short-name": "linked-list",
-          "repo": "https://github.com/virtual-labs/exp-linked-lists-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Polynomial Arithmetic using linked lists",
-          "short-name": "poly-arithmetic",
-          "repo": "https://github.com/virtual-labs/exp-polynomial-arithmetic-iiith",
-          "tag": "v1.0.6",
-          "deploy": true
-        }
-      ]
-    }
-  ],
+  "lab": "Introduction to Biomedical Engineering Instrumentation Virtual Lab",
+  "lab_display_name": "Introduction to Biomedical Engineering Instrumentation Virtual Lab",
+  "phase": "3-ext",
+  "collegeName": "AMRT",
+  "baseUrl": "ibe-amrt.vlabs.ac.in",
+  "introduction": "The Biomedical Engineering Instrumentation Virtual Lab is designed to bridge the gap between engineering principles and human physiology. It provides a risk-free, accessible environment where learners can explore the mechanics, signal processing, and diagnostic capabilities of essential medical devices without needing physical hardware. By simulating a wide spectrum of biological phenomena—from macroscopic cardiovascular and respiratory systems to microscopic cellular transport and histology—the lab equips students with a practical understanding of how medical instruments interface with the human body to monitor, diagnose, and model health.",
+  "experiments":[
+  {
+    "name": "Electromyography (EMG) Signal Recording",
+    "short-name": "emg-recording",
+    "repo": "https://github.com/virtual-labs/exp-emg-recording-amrt",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Heart Rate Variability (HRV) Analysis",
+    "short-name": "hrv-analysis",
+    "repo": "https://github.com/virtual-labs/exp-hrv-analysis-amrt",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Human Body Temperature Regulation",
+    "short-name": "body-temperature",
+    "repo": "https://github.com/virtual-labs/exp-body-temperature-amrt",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Human Respiratory System Model",
+    "short-name": "respiratory-model",
+    "repo": "https://github.com/virtual-labs/exp-respiratory-model-amrt",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Measurement of Blood Pressure (Sphygmomanometer)",
+    "short-name": "blood-pressure",
+    "repo": "https://github.com/virtual-labs/exp-blood-pressure-amrt",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "ECG (Electrocardiography) Simulation",
+    "short-name": "ecg-simulation",
+    "repo": "https://github.com/virtual-labs/exp-ecg-simulation-amrt",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Pulse Oximeter Functionality",
+    "short-name": "pulse-oximeter",
+    "repo": "https://github.com/virtual-labs/exp-pulse-oximeter-amrt",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Basic Model of Blood Flow in Arteries",
+    "short-name": "blood-flow-model",
+    "repo": "https://github.com/virtual-labs/exp-blood-flow-model-amrt",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Osmosis and Diffusion in Cells",
+    "short-name": "osmosis-diffusion",
+    "repo": "https://github.com/virtual-labs/exp-osmosis-diffusion-amrt",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Virtual Bioreactor Simulation",
+    "short-name": "virtual-bioreactor",
+    "repo": "https://github.com/virtual-labs/exp-virtual-bioreactor-amrt",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Virtual Microscopy for Histology",
+    "short-name": "virtual-microscopy",
+    "repo": "https://github.com/virtual-labs/exp-virtual-microscopy-amrt",
+    "tag": "v1.0.0",
+    "deploy": true
+  }
+],
   "targetAudience": {
     "UG": [
-      " Data Structures & Algorithms for 1st & 2nd year B. Tech./ B.E in Computer Science & Information Technology <br/>- B.Sc / B.S in Computer Science "
+      "Biomedical Engineering",
+      "Medical Electronics",
+      "Electronics and Instrumentation Engineering",
+      "Biotechnology",
+      "Electronics and Communication Engineering (with interest in healthcare technologies)"
     ],
     "PG": [
-      "Computer Science, Information Technology, Compilers, Operating systems, Databases, AI and Software engineering. <br/> - Ph. D. Beginners"
+      "Biomedical Engineering",
+      "Medical Electronics and Instrumentation",
+      "Bioprocess Engineering",
+      "Medical Physics"
     ]
   },
-  "objective": "The Virtual Lab for Data Structures will focus on creating an environment where the student interactively explores data structures. The role of this Virtual Labs is to complement the lectures and reading material and the programming lab in three ways : 1. Present visual animations of data structures 2. Allow students to interactively execute algorithms in these data structures. 3. Allow students to interactively compute the cost of using these data structures with different algorithms.",
+  "objective": "The primary objective of the Biomedical Engineering Instrumentation Virtual Lab is to enable students to understand, implement, and apply fundamental algorithms used in the field of bioinformatics. This lab aims to:<ul><li>Analyze Bioelectrical Signals: Understand the physiological origins and acquisition methods of vital bioelectric signals, including simulating Electrocardiograms (ECG), recording Electromyography (EMG) signals, and computing Heart Rate Variability (HRV).</li><li>Understand Non-Invasive Diagnostic Instrumentation: Comprehend the engineering principles behind standard clinical monitoring tools, such as measuring blood pressure (Sphygmomanometer), assessing blood oxygen saturation (Pulse Oximeter), and tracking body temperature regulation.</li><li>Model Biomechanical and Fluid Dynamics: Investigate the physical mechanics of human anatomy by modeling arterial blood flow hemodynamics and simulating respiratory system volumes and capacities.</li><li>Investigate Cellular and Tissue-Level Processes: Examine micro-level biological behaviors by exploring osmosis and diffusion mechanisms, navigating tissue morphology via virtual microscopy, and understanding controlled bioprocessing in a virtual bioreactor.</li><li>Bridge Engineering with Clinical Application: Develop a systems-level perspective on how physiological data is captured, measured, and utilized to inform medical diagnosis and healthcare technology design.</li></ul>",
   "courseAlignment": {
-    "description": "The syllabi of this lab aligns to the following universities in India.",
+    "description": "The Introduction to Biomedical Engineering Instrumentation Virtual Lab is designed to complement and enhance the learning outcomes of various undergraduate and postgraduate courses in Biomedical Engineering, Medical Electronics, and related fields. The experiments and learning activities are aligned with core topics covered in the following courses: Biomedical Instrumentation – BM3491, Anatomy and Physiology – BM25C01, Biomedical Instrumentation – EET312, Biomedical Instrumentation – EC365, Fundamentals of Biomedical Instrumentation – 18EI54 / 18EI64, Biomedical Sensors – 18BMC201J, Biology: Human Anatomy and Physiology – 18BTB102T, Bioprocess Engineering – BT3451. This lab aligns with the curriculum requirements of UGC and AICTE-approved institutions, and is suitable for courses offered by:",
     "universities": [
-      "Osmania University Data Structures Lab",
-      "JNTU Data Structures Lab"
-    ]
+      "Anna University – B.E. Biomedical Engineering, B.E. Medical Electronics",
+    "Visvesvaraya Technological University, Karnataka – B.E. Biomedical Engineering, B.E. Medical Electronics Engineering",
+    "APJ Abdul Kalam Technological University (KTU) (Kerala) – B.Tech Biomedical Engineering, B.Tech Electronics and Biomedical Engineering, B.Tech Applied Electronics & Instrumentation",
+   "SRM Institute of Science and Technology – B.Tech Biotechnology, B.Tech Biomedical Engineering"
 
+    ]
+  }
  
 }
